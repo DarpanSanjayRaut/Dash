@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="main">
+  <input id="ph" type="file" />
+  <button type="button" class="btn btn-success btn-s" (click)="upload()">Upload</button>
+  <B>{{message}}</B>
+  <!-- <div *ngIf=" this.dataSharingService.getChart()"> -->
+      <!-- <canvas *ngIf="logs" id="canvas">{{  this.getChart({}, {}) }}</canvas> -->
+    <!-- </div> -->
+  <ul class="ultitle">
+      <li>
+        <div class="logvalue">
+            Value
+        </div>
+        <div class="logtime">
+            Time
+        </div>
+      </li>
+    </ul>
+
+  <ul>
+    <li *ngFor="let log of logs">
+      <div class="logvalue">
+          {{ log.val  }}
+      </div>
+      <div class="logtime">
+          {{ getDate(log.ts) }}
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,51 @@
+
+
+.main *{
+    box-sizing: border-box;
+}
+.main {
+    float: left;
+    width: 100%;
+}
+.main ul {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    width: 100%;margin: 0;padding: 0;
+}
+.main ul li {    width: 100%;
+    border-top: 1px solid #ccc;
+    float: left;
+    text-decoration: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.main ul li:last-child {   
+    border-bottom: 1px solid #ccc;
+}
+.logvalue {float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /* border-right: 1px solid #fff; */
+    padding: 10px;}
+.logtime { float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-left: 1px solid #bdbdbd;}
+.ultitle { color: blueviolet;font-weight: 500;font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
